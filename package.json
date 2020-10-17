@@ -1,9 +1,16 @@
 {
   "name": "@kixodu/web",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "build": "gulp"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0"
+  },
   "engines": {
     "node": "12.x"
   },
